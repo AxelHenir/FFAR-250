@@ -1,0 +1,30 @@
+body {
+  
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#works{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  
+  margin:50px;
+}
+
+.image{
+  display:block;
+  width: 1000px;
+  padding: 50px;
+}
+
+canvas {
+  display: block;
+}
