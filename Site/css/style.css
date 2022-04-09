@@ -5,24 +5,71 @@ body {
 
   justify-content: center;
   align-items: center;
+
+  font-family: 'Roboto Condensed', sans-serif;
   
 }
 
-#works{
+.workContainer{
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.descripionContainer{
+
   display: flex;
   flex-direction: column;
 
   justify-content: center;
   align-items: center;
 
-  
-  margin:50px;
+  margin:25px;
+
+}
+
+.imageContainer{
+
+  display:flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin:25px;
+
+}
+
+.workTitle{
+
+  font-size: 3em;
+  color: rgb(73, 41, 160);
+}
+
+.workDescription{
+  font-size: 2em;
+  color: rgb(26, 21, 37);
+}
+
+#works{
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
 }
 
 .image{
+
   display:block;
-  width: 1000px;
-  padding: 50px;
+
+  width:1000px;
+  
 }
 
 canvas {

@@ -2,6 +2,7 @@
 let font = undefined;
 
 let gg = undefined;
+let myCanvas;
 
 const FONT_PATH = "assets/font/123Marker.ttf";
 
@@ -13,11 +14,14 @@ function preload(){
 
 function setup() {
 
-    createCanvas(1000,1000);
+    myCanvas = createCanvas(1000,1000);
+    myCanvas.parent("osuContainer");
 
     gg = new Combo();
 
     setInterval(function(){gg.newHitCircle();},200);
+
+
 
 }
 
